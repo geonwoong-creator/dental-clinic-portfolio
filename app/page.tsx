@@ -44,36 +44,36 @@ export default function HomePage() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <span className="text-2xl font-bold text-teal-600">
-                  <a href="/">테스트 치과</a>
+                  <link href="/">테스트 치과</link>
                 </span>
               </div>
             </div>
             <nav className="hidden md:block">
               <div className="flex items-center space-x-8">
-                <a
+                <link
                   href="#home"
                   className="text-gray-700 hover:text-teal-600 transition-colors"
                 >
                   홈
-                </a>
-                <a
+                </link>
+                <link
                   href="/services"
                   className="text-gray-700 hover:text-teal-600 transition-colors"
                 >
                   진료과목
-                </a>
-                <a
+                </link>
+                <link
                   href="#doctors"
                   className="text-gray-700 hover:text-teal-600 transition-colors"
                 >
                   의료진
-                </a>
-                <a
+                </link>
+                <link
                   href="#contact"
                   className="text-gray-700 hover:text-teal-600 transition-colors"
                 >
                   예약문의
-                </a>
+                </link>
               </div>
             </nav>
             <motion.button
